@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGuessr with OpenStreetMap</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>GeoGuessr with OpenStreetMap</h1>
+    </header>
+
+    <main>
+        <div id="map"></div>
+        <div id="scoreboard">
+            <p>Points: <span id="score">0</span></p>
+            <button id="new-location">New Location</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Powered by OpenStreetMap and Leaflet.js</p>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
